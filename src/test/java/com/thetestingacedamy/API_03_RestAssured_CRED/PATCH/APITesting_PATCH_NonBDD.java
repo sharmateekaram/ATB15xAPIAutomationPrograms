@@ -31,7 +31,7 @@ public class APITesting_PATCH_NonBDD {
 
         requestSpecification.contentType(ContentType.JSON);
         requestSpecification.cookies("token", token);
-        requestSpecification.body(payload).log().all();
+          requestSpecification.body(payload).log().all();
 
         System.out.println("=========When===response======");
         response = requestSpecification.when().log().all().patch();

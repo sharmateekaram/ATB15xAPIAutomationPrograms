@@ -4,15 +4,19 @@ import org.testng.annotations.*;
 
 public class APITesting_TestNGAnnotationBeforeAfter {
 
-//    BeforeSuite
-//    BeforeTest
-//    BeforeClass
-//    BeforeMethod
-//    Test
-//    AfterMethod
-//    AfterClass
-//    AfterTest
-//    AfterSuite
+//BeforeSuite
+//BeforeTest
+//BeforeClass
+//BeforeMethod
+//Test5
+//AfterMethod
+//BeforeMethod
+//Test55
+//AfterMethod
+//AfterClass
+//AfterTest
+//AfterSuite
+
 
     @BeforeTest
     void demo2(){
@@ -37,7 +41,11 @@ public class APITesting_TestNGAnnotationBeforeAfter {
 
     @Test
     void demo5(){
-        System.out.println("Test");
+        System.out.println("Test5");
+    }
+    @Test
+    void demo55(){
+        System.out.println("Test55");
     }
 
     @AfterClass
